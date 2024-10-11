@@ -1,0 +1,44 @@
+{
+  "dependencies": {
+    "@shelex/cypress-allure-plugin": "^2.34.0",
+    "allure-commandline": "^2.20.1",
+    "cypress-gitlab-parallel-runner": "^1.1.3",
+    "cypress-parallel": "^0.11.0",
+    "prompt-sync": "^4.2.0",
+    "winston": "^3.8.2"
+  },
+  "scripts": {
+    "cy:chrome": " npx cypress run --spec 'cypress/e2e/appli_tools.cy.js' --browser chrome --headed --env allure=true",
+    "cy:edge": " npx cypress run --spec 'cypress/e2e/appli_tools.cy.js' --browser edge --headed --env allure=true",
+    "cy:cross_browser": "npm run cy:chrome &  npm run cy:edge",
+    "cy:run": "cypress run --spec 'cypress/e2e/appli_tools.cy.js' --browser chrome --headed --env allure=true",
+    "cy:run_1": "cypress run --browser chrome --headed & cypress run --browser edge --headed ",
+    "cy:run_spec": "cypress run --browser chrome --spec ./cypress/e2e/*.*.js --headed --env allure=true",
+    "cy:run_spec_sara": "npx cypress run --headed",
+    "cy:run_browser_sara1": "npm run cy:run_spec_sara -- --browser chrome & npm run cy:run_spec_sara -- --browser edge",
+    "cy:run_browser_sara": "npm run cy:run_spec_sara -- --browser chrome & npm run cy:run_spec_sara -- --browser edge",
+    "cy:parallel": "cross-env ./node_modules/.bin/cypress-parallel -s  cy:run -t 4 -d 'cypress/e2e/*.js'",
+    "cy:parallel_cross": "cross-env ./node_modules/.bin/cypress-parallel -s  cy:run_1 -t 4 -d 'cypress/e2e/*.js'",
+    "allure:report": "allure generate allure-results --clean -o allure-report",
+    "allure:clear": "if exist allure-results rmdir /q /s allure-results && if exist allure-report rmdir /q /s allure-report && if exist cypress\\screenshots rmdir /q /s cypress\\screenshots && if exist cypress\\videos rmdir /q /s cypress\\videos",
+    "pretest": "npm run allure:clear",
+    "test:report": "npm run cy:run || npm run posttest",
+    "test": "npm run cy:cross_browser || npm run posttest",
+    "test-report": "npm run cy:chrome || npm run posttest",
+    "posttest": "npm run allure:report"
+  },
+  "devDependencies": {
+    "@cypress/grep": "^3.1.3",
+    "chai": "^4.3.7",
+    "cross-env": "^7.0.3",
+    "cypress": "^12.1.0",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-iframe": "^1.0.1",
+    "cypress-log-to-output": "^1.1.2",
+    "cypress-mochawesome-reporter": "^3.2.3",
+    "cypress-xpath": "^2.0.1",
+    "mocha": "^10.2.0",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^4.2.2"
+  }
+}

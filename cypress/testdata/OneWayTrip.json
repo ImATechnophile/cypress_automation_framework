@@ -1,0 +1,262 @@
+[
+  {
+    "Flightname": [
+      "\" B62131\""
+    ],
+    "Deptime": [
+      "\" 8:10am \""
+    ],
+    "Depplace": [
+      "\" JFK \""
+    ],
+    "Arrtime": [
+      "\" 11:09am \""
+    ],
+    "Arrplace": [
+      "\" LAS \""
+    ],
+    "Duration": [
+      "\" 5h 59m \""
+    ],
+    "StopPlace": [
+      "\"Nonstop\""
+    ],
+    "Farerangestart": [
+      "\"299242242490490536453420883420\""
+    ]
+  },
+  {
+    "Flightname": [
+      "\" B6711\""
+    ],
+    "Deptime": [
+      "\" 5:59pm \""
+    ],
+    "Depplace": [
+      "\" JFK \""
+    ],
+    "Arrtime": [
+      "\" 9:00pm \""
+    ],
+    "Arrplace": [
+      "\" LAS \""
+    ],
+    "Duration": [
+      "\" 6h 1m \""
+    ],
+    "StopPlace": [
+      "\"Nonstop\""
+    ],
+    "Farerangestart": [
+      "\"299242242490490536453420883420\""
+    ]
+  },
+  {
+    "Flightname": [
+      "\" B61211\""
+    ],
+    "Deptime": [
+      "\" 7:45pm \""
+    ],
+    "Depplace": [
+      "\" JFK \""
+    ],
+    "Arrtime": [
+      "\" 10:49pm \""
+    ],
+    "Arrplace": [
+      "\" LAS \""
+    ],
+    "Duration": [
+      "\" 6h 4m \""
+    ],
+    "StopPlace": [
+      "\"Nonstop\""
+    ],
+    "Farerangestart": [
+      "\"299242242490490536453420883420\""
+    ]
+  },
+  {
+    "Flightname": [
+      "\" B6518, B62577\""
+    ],
+    "Deptime": [
+      "\" 6:30am \""
+    ],
+    "Depplace": [
+      "\" JFK \""
+    ],
+    "Arrtime": [
+      "\" 2:02pm \""
+    ],
+    "Arrplace": [
+      "\" LAS \""
+    ],
+    "Duration": [
+      "\" 10h 32m \""
+    ],
+    "StopPlace": [
+      "\"1 Stop: BOS\""
+    ],
+    "Farerangestart": [
+      "\"299242242490490536453420883420\""
+    ]
+  },
+  {
+    "Flightname": [
+      "\" B62832, B62577\""
+    ],
+    "Deptime": [
+      "\" 7:15am \""
+    ],
+    "Depplace": [
+      "\" LGA \""
+    ],
+    "Arrtime": [
+      "\" 2:02pm \""
+    ],
+    "Arrplace": [
+      "\" LAS \""
+    ],
+    "Duration": [
+      "\" 9h 47m \""
+    ],
+    "StopPlace": [
+      "\"1 Stop: BOS\""
+    ],
+    "Farerangestart": [
+      "\"299242242490490536453420883420\""
+    ]
+  },
+  {
+    "Flightname": [
+      "\" B6819, B61080\""
+    ],
+    "Deptime": [
+      "\" 9:00am \""
+    ],
+    "Depplace": [
+      "\" JFK \""
+    ],
+    "Arrtime": [
+      "\" 4:19pm \""
+    ],
+    "Arrplace": [
+      "\" LAS \""
+    ],
+    "Duration": [
+      "\" 10h 19m \""
+    ],
+    "StopPlace": [
+      "\"1 Stop: LAX\""
+    ],
+    "Farerangestart": [
+      "\"299242242490490536453420883420\""
+    ]
+  },
+  {
+    "Flightname": [
+      "\" B61773, B61080\""
+    ],
+    "Deptime": [
+      "\" 9:30am \""
+    ],
+    "Depplace": [
+      "\" EWR \""
+    ],
+    "Arrtime": [
+      "\" 4:19pm \""
+    ],
+    "Arrplace": [
+      "\" LAS \""
+    ],
+    "Duration": [
+      "\" 9h 49m \""
+    ],
+    "StopPlace": [
+      "\"1 Stop: LAX\""
+    ],
+    "Farerangestart": [
+      "\"299242242490490536453420883420\""
+    ]
+  },
+  {
+    "Flightname": [
+      "\" B6832, B6777\""
+    ],
+    "Deptime": [
+      "\" 2:15pm \""
+    ],
+    "Depplace": [
+      "\" LGA \""
+    ],
+    "Arrtime": [
+      "\" 9:10pm \""
+    ],
+    "Arrplace": [
+      "\" LAS \""
+    ],
+    "Duration": [
+      "\" 9h 55m \""
+    ],
+    "StopPlace": [
+      "\"1 Stop: BOS\""
+    ],
+    "Farerangestart": [
+      "\"299242242490490536453420883420\""
+    ]
+  },
+  {
+    "Flightname": [
+      "\" B62901, B6607\""
+    ],
+    "Deptime": [
+      "\" 2:35pm \""
+    ],
+    "Depplace": [
+      "\" JFK \""
+    ],
+    "Arrtime": [
+      "\" 11:02pm \""
+    ],
+    "Arrplace": [
+      "\" LAS \""
+    ],
+    "Duration": [
+      "\" 11h 27m \""
+    ],
+    "StopPlace": [
+      "\"1 Stop: FLL\""
+    ],
+    "Farerangestart": [
+      "\"299242242490490536453420883420\""
+    ]
+  },
+  {
+    "Flightname": [
+      "\" B61118, B6777\""
+    ],
+    "Deptime": [
+      "\" 3:30pm \""
+    ],
+    "Depplace": [
+      "\" JFK \""
+    ],
+    "Arrtime": [
+      "\" 9:10pm \""
+    ],
+    "Arrplace": [
+      "\" LAS \""
+    ],
+    "Duration": [
+      "\" 8h 40m \""
+    ],
+    "StopPlace": [
+      "\"1 Stop: BOS\""
+    ],
+    "Farerangestart": [
+      "\"299242242490490536453420883420\""
+    ]
+  }
+]

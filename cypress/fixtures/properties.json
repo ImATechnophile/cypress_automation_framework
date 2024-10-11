@@ -1,0 +1,18 @@
+{
+
+
+  "falconApp":"http://10.10.10.231:8082/#/app/dashboard",
+  "falcontitle":"ATMECS - Falcon Test Repotrs",
+
+  "appurl":"https://demo.applitools.com/",
+  "username": "arivu",
+  "password": "12436",
+  "expectedvalue": "ACME demo app",
+
+  "jetblueApp":"https://www.jetblue.com/",
+  "jetbluetitle":"JetBlue | Airline Tickets, Flights & Airfare: Book Direct - Official Site"
+
+
+
+}
+

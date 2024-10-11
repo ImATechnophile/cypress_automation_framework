@@ -1,0 +1,15 @@
+
+{
+    "jobname":"REST API TEST RESULT",
+    "labelofdashboard":"ng-scope",
+    "dashboardName":"Dashboard",
+    "dasboard_totallabel":"files",
+    "dasboard_totalvalue":"10 TEST(S)",
+    "dasboard_passlabel":"check",
+    "dasboard_passvalue":"9",
+    "dasboard_failedlabel":"close",
+    "dasboard_failedvalue":"1",
+    "dasboard_skippedlabel":"mail",
+    "dasboard_skippedvalue":"0"
+}
+   
